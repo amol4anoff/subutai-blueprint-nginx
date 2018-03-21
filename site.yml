@@ -6,11 +6,10 @@
     - name: Update and upgrade all
       apt:
         upgrade: true
-        update: true
+        update_cache: true
         allow_unauthenticated: true
     - name: Install nginx
       apt: 
         name: nginx
         allow_unauthenticated: true
 
-        

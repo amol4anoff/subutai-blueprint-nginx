@@ -3,6 +3,7 @@
     "description": "Web server nginx",
     "version": "0.0.1",
     "author": "https://github.com/lbthomsen",
+    "ssh-key": "lth", 
     "containers": [
         {
             "hostname": "${webContainerName}",
