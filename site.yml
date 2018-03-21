@@ -1,0 +1,16 @@
+---
+
+- hosts: ws
+  remote_user: root
+  tasks:
+    - name: Update and upgrade all
+      apt:
+        upgrade: true
+        update: true
+        allow_unauthenticated: true
+    - name: Install nginx
+      apt: 
+        name: nginx
+        allow_unauthenticated: true
+
+        
