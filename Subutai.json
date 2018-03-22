@@ -31,7 +31,7 @@
         "ansible-playbook": "site.yml",
         "extra-vars": [
             {
-                "key": "domain_name",
+                "key": "",
                 "value": "${domainName}"
             }
         ],
